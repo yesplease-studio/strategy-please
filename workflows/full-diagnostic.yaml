@@ -1,0 +1,50 @@
+# Full Diagnostic Workflow
+#
+# Comprehensive diagnostic for companies that want a complete strategic
+# assessment before deciding which workshops to run.
+
+name: full-diagnostic
+description: Assessment-driven approach — score all dimensions, then prescribe workshops
+trigger: "Company wants a full assessment before committing to specific workshops"
+
+steps:
+  - id: assess
+    name: Strategic Assessment
+    description: >
+      Score all 8 dimensions using the scorecard. Can be self-assessed
+      (during onboarding), collaborative (facilitated conversation),
+      or external (based on research and observation).
+    output: Completed scorecard in config/profile.md
+    decision_point: Scores reviewed and validated?
+
+  - id: route
+    name: Scorecard Integration
+    description: >
+      Feed the scorecard results through the scorecard integration
+      (systems/strategy-workshops/SCORECARD-INTEGRATION.md) to identify
+      the pattern and route to the right recommendation.
+    input: Scorecard results
+    output: Pattern identification + routing decision
+
+  - id: recommend
+    name: Workshop Program
+    skill: workshop-chain  # or workshop-recommend if only 1 gap
+    input: Scorecard results + pattern analysis
+    output: Sequenced workshop program (or single recommendation)
+    decision_point: Program accepted? Adjust scope?
+
+  - id: execute
+    name: Execute Program
+    description: >
+      Run each workshop in sequence, following the new-engagement workflow
+      for each individual workshop (design → board → run → debrief).
+    loop: true  # Repeat for each workshop in the program
+
+notes:
+  - This workflow is the most thorough approach but also the highest time investment.
+  - For companies that know their problem, skip the full diagnostic and go straight
+    to workshop-recommend via the new-engagement workflow.
+  - The assessment step can use an existing assessment from the Yes Please vault
+    if the company has already been through a client-assessment skill run.
+  - After each workshop debrief, re-evaluate the remaining program — earlier
+    workshops may shift priorities for later ones.

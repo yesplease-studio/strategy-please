@@ -1,0 +1,65 @@
+# New Engagement Workflow
+#
+# The standard sequence for a new company using strategy-please.
+# Recommend → Design → Run → Debrief, with decision points between each step.
+
+name: new-engagement
+description: Full workshop engagement from first conversation to debrief
+trigger: "A new company wants to run a workshop"
+
+steps:
+  - id: onboard
+    name: Company Onboarding
+    skill: null  # Manual — follow SETUP.md
+    description: Create a company profile through guided conversation
+    output: config/profile.md
+    decision_point: Profile complete. Proceed to recommendation?
+
+  - id: recommend
+    name: Workshop Recommendation
+    skill: workshop-recommend
+    input: Company profile + stated challenge
+    output: Ranked workshop recommendation with rationale
+    decision_point: Does the recommendation fit? Adjust or accept?
+
+  - id: design
+    name: Session Design
+    skill: workshop-design
+    input: Selected workshop + company profile
+    output: Tailored session plan, pre-work checklist, participant brief
+    decision_point: Session plan approved? Ready to schedule?
+
+  - id: board
+    name: Board Setup
+    skill: board-generate
+    input: Workshop + session plan
+    output: Miro board (or manual board spec)
+    optional: true
+    decision_point: Board ready. Pre-work sent to participants?
+
+  - id: run
+    name: Run the Workshop
+    skill: null  # Human facilitation — strategy-please is not in the room
+    description: The facilitator runs the session using the tailored plan
+    output: Session notes, decisions, completed exercises
+    decision_point: Workshop complete. Ready for debrief?
+
+  - id: debrief
+    name: Workshop Debrief
+    skill: workshop-debrief
+    input: Session notes + outcomes
+    output: Scorecard delta, profile updates, next steps
+    decision_point: Debrief complete. Run another workshop or wrap up?
+
+  - id: track
+    name: Effectiveness Tracking
+    skill: null  # Append to tracking/effectiveness-log.md
+    input: Debrief results
+    output: Log entry
+    optional: true
+
+notes:
+  - Each step has a decision point. The workflow pauses for human judgment.
+  - Steps can be skipped if context already exists (e.g., skip onboard if profile exists).
+  - The board step is optional — facilitators can build manually from the board layout spec.
+  - After debrief, the workflow can loop back to recommend for the next workshop in a chain.

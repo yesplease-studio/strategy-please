@@ -1,0 +1,46 @@
+# Strategic Foundations Workflow
+#
+# A pre-defined workshop chain for companies that need foundational
+# strategic work across Dims 1-3. The most common multi-workshop sequence.
+
+name: strategic-foundations
+description: Three-workshop sequence building strategic clarity, ICP, and positioning
+trigger: "Company scores low across Dims 1-3, or needs full strategic foundations"
+
+sequence:
+  - id: step-1
+    workshop: ws-strategic-clarity
+    dimension: 1
+    format: half-day
+    purpose: Establish purpose, audience, direction, and operating principles
+    spacing_after: "1-2 weeks — document and share outputs with the full team"
+    entry_point: true  # Can be run standalone to test fit
+
+  - id: step-2
+    workshop: ws-icp-discovery
+    dimension: 3
+    format: 90-min
+    purpose: Define the customer with enough specificity to build targeting and messaging
+    depends_on: step-1  # Needs the audience definition from Strategic Clarity
+    spacing_after: "2-3 weeks — test ICP criteria against real pipeline, compile customer language"
+
+  - id: step-3
+    workshop: ws-positioning
+    dimension: 2
+    format: half-day
+    purpose: Craft messaging that speaks to the defined ICP in their language
+    depends_on: step-2  # Needs the ICP definition and customer language bank
+    spacing_after: "Immediate — update website and sales materials"
+
+total_session_time: "2 half-days + 1 x 90-min session"
+total_elapsed_time: "6-8 weeks including spacing"
+expected_movement:
+  dim_1: "+1 to +1.5"
+  dim_2: "+1 to +2"
+  dim_3: "+1 to +1.5"
+
+notes:
+  - This is the most common sequence for Seed to Series A companies.
+  - Step 1 can be skipped if Dim 1 already scores 3+.
+  - After this sequence, Growth Channel is the natural next workshop.
+  - Stakeholder Alignment can be inserted before Step 1 if internal misalignment is visible.

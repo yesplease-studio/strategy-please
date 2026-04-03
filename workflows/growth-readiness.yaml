@@ -1,0 +1,37 @@
+# Growth Readiness Workflow
+#
+# For companies that have strategic foundations but need to build
+# the execution layer: competitive awareness and growth channels.
+
+name: growth-readiness
+description: Two-workshop sequence building competitive positioning and growth engine
+trigger: "Company has foundations (Dims 1-3 at 3+) but execution gaps (Dims 7-8 low)"
+
+sequence:
+  - id: step-1
+    workshop: ws-competitive-landscape
+    dimension: 7
+    format: 90-min
+    purpose: Build honest competitive awareness and draft competitive talk tracks
+    spacing_after: "1-2 weeks — research gaps identified in the session, build battle cards"
+    entry_point: true
+
+  - id: step-2
+    workshop: ws-growth-channel
+    dimension: 8
+    format: 90-min
+    purpose: Select primary growth channel and design the 90-day plan
+    depends_on: step-1  # Competitive insight informs channel selection
+    spacing_after: "Execute the 90-day plan"
+
+total_session_time: "2 x 90-min sessions"
+total_elapsed_time: "3-4 weeks including spacing, then 90-day execution"
+expected_movement:
+  dim_7: "+1 to +1.5"
+  dim_8: "+1 to +1.5"
+
+notes:
+  - Prerequisites: Dims 1-3 should be at 3+ before running this sequence.
+  - If Dims 1-3 are low, run strategic-foundations.yaml first.
+  - The 90-day growth plan from Step 2 should be reviewed at the end of the execution period.
+  - Assumption Mapping can be added before Step 2 if the growth strategy involves significant bets.
