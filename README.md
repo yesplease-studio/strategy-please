@@ -1,3 +1,5 @@
+<img width="1584" height="396" alt="Github-strategy-please" src="https://github.com/user-attachments/assets/e3f12ac8-d392-40d5-8b8c-9337c1b20973" />
+
 # strategy-please
 
 An open-source, AI-native workshop recommendation engine for strategic planning.
