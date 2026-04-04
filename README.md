@@ -70,12 +70,15 @@ The **facilitation itself** (running the room, reading the dynamics, knowing whe
 
 ## The "-please" family
 
-strategy-please is part of a family of open-source, AI-native tools for strategic and product work:
+Open-source, AI-native tools for strategic and product work by [Yes Please Studio](https://yesplease.studio):
 
-- **[prd-please](https://github.com/yesplease-studio/prd-please)** turns strategy into structured product requirements
-- **strategy-please** (this repo) maps challenges to the right workshop
+| Tool | What it does |
+|------|-------------|
+| **strategy-please** (this repo) | Maps challenges to the right workshop using a strategic maturity framework |
+| **[prd-please](https://github.com/yesplease-studio/prd-please)** | Structured methodology for AI-native product requirements |
+| **[sales-please](https://github.com/yesplease-studio/sales-please)** | Lightweight deal qualification framework built on WORTH |
 
-Each tool is designed to work with Claude Code as the processing layer. Open a repo, have a conversation, get structured output.
+Each tool works standalone. Fork it, open Claude Code, start working.
 
 ## Workflows
 
