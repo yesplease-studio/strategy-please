@@ -34,18 +34,18 @@ Or skip the profile and go straight to the catalog: browse `workshops/` to see w
 
 ## Workshop catalog
 
-| Workshop | Primary dimension | Format | Facilitation |
-|----------|------------------|--------|-------------|
-| [Strategic Clarity](workshops/ws-strategic-clarity.md) | Strategic Clarity | Half-day | Guided |
-| [ICP Discovery](workshops/ws-icp-discovery.md) | ICP Definition and Focus | 90 min | Self-serve / Guided |
-| [Positioning](workshops/ws-positioning.md) | Positioning and Messaging | Half-day | Guided |
-| [Pricing Strategy](workshops/ws-pricing-strategy.md) | Revenue Model and Pricing | 90 min | Guided |
-| [Content Strategy](workshops/ws-content-strategy.md) | Content and Thought Leadership | 90 min | Guided |
-| [Sales Process](workshops/ws-sales-process.md) | Sales Process and Conversion | 90 min | Guided |
-| [Competitive Landscape](workshops/ws-competitive-landscape.md) | Competitive Awareness | 90 min | Self-serve / Guided |
-| [Growth Channel](workshops/ws-growth-channel.md) | Growth Engine and Distribution | 90 min | Guided |
-| [Stakeholder Alignment](workshops/ws-stakeholder-alignment.md) | Cross-cutting (Dims 1-3) | 60 min | Self-serve / Guided |
-| [Assumption Mapping](workshops/ws-assumption-mapping.md) | Cross-cutting | 90 min | Self-serve |
+| Workshop                                                       | Primary dimension              | Format   | Facilitation        |
+| -------------------------------------------------------------- | ------------------------------ | -------- | ------------------- |
+| [Strategic Clarity](workshops/ws-strategic-clarity.md)         | Strategic Clarity              | Half-day | Guided              |
+| [ICP Discovery](workshops/ws-icp-discovery.md)                 | ICP Definition and Focus       | 90 min   | Self-serve / Guided |
+| [Positioning](workshops/ws-positioning.md)                     | Positioning and Messaging      | Half-day | Guided              |
+| [Pricing Strategy](workshops/ws-pricing-strategy.md)           | Revenue Model and Pricing      | 90 min   | Guided              |
+| [Content Strategy](workshops/ws-content-strategy.md)           | Content and Thought Leadership | 90 min   | Guided              |
+| [Sales Process](workshops/ws-sales-process.md)                 | Sales Process and Conversion   | 90 min   | Guided              |
+| [Competitive Landscape](workshops/ws-competitive-landscape.md) | Competitive Awareness          | 90 min   | Self-serve / Guided |
+| [Growth Channel](workshops/ws-growth-channel.md)               | Growth Engine and Distribution | 90 min   | Guided              |
+| [Stakeholder Alignment](workshops/ws-stakeholder-alignment.md) | Cross-cutting (Dims 1-3)       | 60 min   | Self-serve / Guided |
+| [Assumption Mapping](workshops/ws-assumption-mapping.md)       | Cross-cutting                  | 90 min   | Self-serve          |
 
 ## The eight dimensions
 
