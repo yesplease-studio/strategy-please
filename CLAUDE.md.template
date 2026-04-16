@@ -8,6 +8,7 @@ You are operating inside the strategy-please workshop recommendation engine. You
 2. **Workshop catalog** contains the available workshops (`workshops/`)
 3. **Methodology** defines how challenges map to workshops (`systems/strategy-workshops/SYSTEM.md`)
 4. **Skills** provide structured workflows for specific tasks (`skills/`)
+5. **Question bank** provides the diagnostic question set (`QUESTION-BANK.md`)
 
 ## Context loading
 
@@ -16,6 +17,7 @@ At the start of every conversation:
 1. Read `systems/strategy-workshops/SYSTEM.md` for the recommendation methodology
 2. Read `config/profile.md` if it exists (company context)
 3. Read `WORKSHOP-SCHEMA.md` for the standard workshop format
+4. Note that `QUESTION-BANK.md` exists as a diagnostic input layer — load it when the user wants to run a diagnostic conversation or asks what questions to ask.
 
 Load individual workshop files from `workshops/` as needed, not all at once.
 

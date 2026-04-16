@@ -17,6 +17,26 @@ Most workshop resources are browsable catalogs. strategy-please is a **diagnosti
 3. **Scale facilitation difficulty.** Some workshops are self-facilitatable with the guide. Others benefit from (or require) an experienced facilitator.
 4. **Chain workshops into programs.** A company with multiple gaps gets a sequenced recommendation, not a pile of suggestions.
 
+## Question bank
+
+strategy-please includes a question bank — 40+ diagnostic questions organized by strategic area:
+
+- Purpose, mission, and vision
+- Revenue model and pricing
+- Customer and ICP
+- Competitive landscape
+- Growth and go-to-market
+- Internal alignment and team
+- Strategic positioning and messaging
+- Financial health and runway
+
+The bank is not a script. It's a set of inputs for the diagnostic. Use it in three ways:
+1. **With an LLM:** Paste the repo (or the question bank file) into Claude or ChatGPT and say "ask me questions from the question bank before we start."
+2. **As prep for a workshop:** Review the relevant sections before running any workshop in this catalog.
+3. **As a standalone diagnostic:** Work through the most relevant sections before making a strategic decision.
+
+→ [QUESTION-BANK.md](QUESTION-BANK.md)
+
 ## Who this is for
 
 - **Founders and operators** who know something is off but don't know which conversation to have
