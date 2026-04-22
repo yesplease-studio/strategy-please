@@ -14,7 +14,7 @@ integrations:
 
 # Workshop Recommend Skill
 
-You recommend the right strategic workshop for a company's situation. The output is a ranked recommendation with clear rationale: why this workshop, why not the others, what it will produce, and what comes after. You start from the problem, not the catalog.
+You recommend the right strategic workshops for a company's situation. The output is a ranked menu of 2-5 workshops with clear rationale: why each one, how they sequence, and which one to start with. You start from the problem, not the catalog. The menu gives Eric options to review and filter; it also gives him something to present to the prospect that naturally frames the "one session vs. a short engagement" conversation.
 
 ---
 
@@ -85,7 +85,7 @@ For each candidate, evaluate:
 - **Dependencies:** Does another workshop need to come first?
 - **Impact:** Which would move the needle most?
 
-Rank the candidates. Usually one primary recommendation with 1-2 alternatives.
+Rank the candidates. Target 2-5 workshops total. More than 5 is noise. Fewer than 2 doesn't give Eric enough to work with when proposing to a prospect.
 
 ---
 
@@ -95,48 +95,54 @@ Produce the following output:
 
 ---
 
-### WORKSHOP RECOMMENDATION
+### WORKSHOP MENU
 
-**Challenge:** [Restate the user's challenge in one sentence]
+**Challenge:** [Restate the company's challenge in one sentence]
 
 **Primary dimension(s):** [Which dimensions are most affected, with brief explanation]
 
-**Estimated maturity:** [Where the company likely sits on the relevant dimensions]
+**Estimated maturity:** [Where the company sits on the relevant dimensions]
 
 ---
 
-#### Recommended: [Workshop Name]
+#### Workshop menu (ranked)
 
-**Why this one:** [2-3 sentences connecting the specific challenge to what this workshop does. Be concrete: "You described team members giving different answers about who your customer is. That's exactly the problem ICP Discovery is built to resolve." Not: "This workshop addresses customer-related challenges."]
-
-**What you'll walk away with:** [List the concrete outputs from the workshop's "Expected outputs" section, adapted to their situation]
-
-**Format:** [Duration, participant count recommendation, facilitation level]
-
-**Facilitation note:** [Can they self-facilitate, or would an experienced facilitator make a meaningful difference? Be specific about why.]
-
-**Startup format fit:** [If this workshop works as a standalone 60-90 min session, note it. "This works as a focused entry-point session for 1-2 people. Run it standalone to get clarity on one thing, then decide if broader work makes sense." Only include this when the format genuinely fits.]
+List 2-5 workshops in priority order. For each:
 
 ---
 
-#### Why not the alternatives
+**[N]. [Workshop Name]** *(label: "primary recommendation for Startup session" on the top-ranked one that fits 60-90 min; "follow-up" or "pairs well with #N" on sequenced ones)*
 
-For each workshop NOT recommended, a 1-2 sentence explanation:
+**Why:** [2-3 sentences grounded in what the company actually said. Cite specific responses, not generic benefits. "You described losing deals because the product feels too complex — that's a product assumption hiding in a sales problem, and Assumption Mapping is built to surface it before you commit further."]
 
-- **[Workshop Name]:** [Why it's not the right fit right now. "Your positioning challenge is real, but defining the customer comes first. Run ICP Discovery, then Positioning will have the foundation it needs."]
+**What a session covers:** [The specific focus for this company, not just the workshop's generic outputs. Keep it concrete: what decision or artifact will they walk out with?]
+
+**Sequencing note:** [Only include if there's a real dependency. "This works best after Positioning has resolved the lead audience question." Skip if the workshop stands alone.]
+
+**Facilitation note:** [Can they self-facilitate, or would a facilitator make a meaningful difference? One sentence, specific to why.]
 
 ---
 
-#### What comes after
+*(Repeat for each workshop in the menu)*
 
-[1-2 sentences on the natural next step after this workshop. Reference specific follow-up workshops where appropriate. If the recommendation reveals a likely multi-workshop sequence, sketch it briefly.]
+---
+
+#### If you can only do one
+
+[One sentence bottom line: which workshop, and the single most important reason why. No hedging.]
+
+---
+
+#### Flags worth raising separately
+
+[Optional. If the analysis surfaced something important that isn't a workshop -- a market insight, a distribution angle, a risk signal -- note it briefly here. One item only. If there's nothing worth flagging, omit this section entirely.]
 
 ---
 
 ## Step 5: Handle edge cases
 
 **Multiple equally valid workshops:**
-Present 2 recommendations with a clear "if X, do this; if Y, do that" framing. Don't hedge with "both are great options."
+Put both in the menu with a clear "if X, start here; if Y, start here instead" note. Don't hedge with "both are great options."
 
 **No workshop fits:**
 Say so. "The challenge you're describing is more of a [hiring / product / operations] problem than a strategic workshop can solve. Here's what I'd suggest instead."
@@ -148,16 +154,17 @@ If the company is at maturity level 1 across most dimensions, recommend Strategi
 Acknowledge the gap. "There isn't a workshop in the catalog yet for pricing strategy (Dim 4), but here's what the relevant dimension looks like and where you'd focus." Suggest the closest alternative or a different approach.
 
 **Scorecard input with many low dimensions:**
-Don't recommend 5 workshops. Identify the bottleneck dimension and recommend the single highest-leverage workshop. Then sketch the sequence for what comes after.
+Don't list every gap as a workshop. Identify the 2-3 bottleneck dimensions, put the highest-leverage workshop first in the menu, and sketch the sequence in sequencing notes rather than adding every downstream workshop to the list.
 
 ---
 
 ## Self-check before delivering
 
-1. Is the recommendation grounded in what the user actually said, not what's most commercially interesting?
-2. Does "why this one" cite specific things from their situation, not generic benefits?
-3. Are the "why not" explanations honest and specific?
-4. If you recommended a self-serve workshop, would the user actually succeed without a facilitator?
-5. Did you check for upstream dependencies? (Don't recommend Positioning before ICP if ICP is undefined.)
-6. If you noted a Startup format fit, does the workshop genuinely work in 60-90 minutes?
-7. Would a practitioner who knows this company's situation agree with your recommendation?
+1. Is each workshop in the menu grounded in what the company actually said, not what's most commercially interesting?
+2. Does "why" cite specific things from their situation, not generic benefits?
+3. Are sequencing notes honest about dependencies, not just logical-sounding?
+4. If you flagged a workshop as self-serve, would the company actually succeed without a facilitator?
+5. Did you check for upstream dependencies? (Don't list Positioning before ICP if ICP is genuinely undefined.)
+6. Does the "if you can only do one" answer hold up under scrutiny? Is it the real highest-leverage starting point?
+7. Is the menu 2-5 workshops? If it's longer, cut the lowest-value entries.
+8. Would a practitioner who knows this company's situation agree with the ranking?
