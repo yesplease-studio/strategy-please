@@ -54,6 +54,8 @@ Each founder or senior team member tells the origin story: why they started or j
 
 **What it produces:** The raw material for an authentic purpose statement. The overlap between individual stories reveals the shared "Why." Divergences reveal alignment gaps.
 
+**Shaping the raw material (facilitation):** Origin stories produce honest motive, not a finished line. Don't let the room leave with the first sentence that sounds good. Two failures to catch: a purpose that's really a product description (too low), and the subtler one, a purpose that's just *how the company works* restated as the reason (e.g. "to build the foundation the next generation of technology stands on" describes the work, not why it matters). Two quick tests: strip any technology or product noun from the line -- "AI," "platform," "foundation" -- and if it falls apart, the real why is hiding underneath; and read the purpose right before the 12-month vision, where it should explain why that future is worth wanting rather than repeat it. If two motives compete, write both and pick the one the room recognizes as true rather than blending them.
+
 ### Exercise 2: Audience Mapping (30 min)
 
 Define who the company serves with enough specificity to make targeting decisions.

@@ -20,6 +20,8 @@ The "Why → How → What" questions. Most companies can describe What they do. 
 
 - **"What would you keep doing even if the company failed?"** — Separates the mission from the vehicle. The answer reveals what's genuinely important to the founder vs. what's commercially convenient.
 
+**Checking the answer is at the right level.** A Why answer fails in two directions. Too low: it's a product description ("we make the best X"). Too high-but-hollow: it's the *how* restated as a reason ("to build the foundation the next generation of technology stands on" describes the work, not why it matters). Two fast checks before you write it down — strip any technology or product noun from the line ("AI," "platform," "foundation"); if it collapses, the real why is underneath. And read it right before the vision: the purpose should explain why that future is worth wanting, not repeat it.
+
 ### How questions (the approach)
 
 - **"What principles guide how you build your product / deliver your service?"** — The operating beliefs. "We believe in transparency" is generic. "We show customers exactly how the algorithm works because trust is more important than protecting IP" is a real principle that affects product and positioning.
